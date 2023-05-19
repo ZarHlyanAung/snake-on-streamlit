@@ -6,7 +6,7 @@ from PIL import Image
 import tensorflow as tf
 
 # Load the pre-trained gesture classification model
-model = tf.keras.models.load_model('gesture_model.h5')
+model = tf.keras.models.load_model('hand_model1.h5')
 
 # Set up MediaPipe for hand detection
 mp_drawing = mp.solutions.drawing_utils
